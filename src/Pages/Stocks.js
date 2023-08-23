@@ -126,7 +126,7 @@ const Stocks = () => {
 						)}
 					</div>
 					<div className='stock-column-chart'>
-						{/* <CustomChart chartData={chartData} /> */}
+						<CustomChart chartData={chartData} />
 					</div>
 				</div>
 			)}
