@@ -1,6 +1,7 @@
 # Trending Stocks Application Readme
 
-![Trending Stocks App](app_screenshot.png)
+
+![Screenshot 2023-08-24 at 1 52 37 AM](https://github.com/jozzbruer/trending-stocks-app/assets/21253158/b7d96350-f81d-4359-84f5-224ab3944850)
 
 The Trending Stocks Application is a web application built using React and Bootstrap that allows users to view daily trending stock data obtained from Yahoo Finance. The application features a dynamic slider showcasing the top trending stocks of the day, a list of stocks with detailed daily data, and a chart that visually represents the monthly changes for each of the trending stocks. The application utilizes Axios for fetching data and Chart.js for rendering the interactive chart.
 
