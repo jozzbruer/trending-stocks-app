@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# Trending Stocks Application Readme
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Trending Stocks App](app_screenshot.png)
 
-## Available Scripts
+The Trending Stocks Application is a web application built using React and Bootstrap that allows users to view daily trending stock data obtained from Yahoo Finance. The application features a dynamic slider showcasing the top trending stocks of the day, a list of stocks with detailed daily data, and a chart that visually represents the monthly changes for each of the trending stocks. The application utilizes Axios for fetching data and Chart.js for rendering the interactive chart.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Features](#features)
+  - [Trending Stocks Slider](#trending-stocks-slider)
+  - [Daily Stock List](#daily-stock-list)
+  - [Monthly Change Chart](#monthly-change-chart)
+- [Technologies Used](#technologies-used)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+Before you begin, ensure you have the following software installed:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js: Make sure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/your-jozzbruer/trending-stocks-app.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
 
-### `npm run eject`
+   ```bash
+   cd trending-stocks-app
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install the required dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm start
+   ```
 
-## Learn More
+   The application will be accessible at `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Trending Stocks Slider
 
-### Code Splitting
+The main highlight of the application is the trending stocks slider on the header. This slider showcases the top trending stocks of the day obtained from Yahoo Finance. Users can navigate through the slider to view different stocks and their brief details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Daily Stock List
 
-### Analyzing the Bundle Size
+The application also provides a comprehensive list of daily stock data. Users can access this list to view detailed information about each trending stock, including opening price, closing price, high, low, and volume. This list provides a quick overview of the day's performance for each stock.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Monthly Change Chart
 
-### Making a Progressive Web App
+For users interested in understanding the long-term trends, the application features an interactive chart that displays the monthly changes in stock prices for each of the trending stocks. The Chart.js library is utilized to visualize this data, allowing users to analyze the stock's performance over time.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Technologies Used
 
-### Advanced Configuration
+- React: A JavaScript library for building user interfaces.
+- Bootstrap: A popular CSS framework for building responsive and visually appealing web applications.
+- Axios: A promise-based HTTP client for making API requests.
+- Chart.js: A JavaScript charting library that enables the creation of interactive and customizable charts.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Usage
 
-### Deployment
+1. Upon opening the application, the homepage will display the trending stocks slider showcasing the top trending stocks of the day.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2. Users can navigate through the slider to view different stocks and their brief details.
 
-### `npm run build` fails to minify
+3. To access detailed daily stock data, users can go to the daily stock list page by clicking the "View All Stocks" button.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. The daily stock list provides comprehensive information about each trending stock's performance for the day.
+
+5. For an in-depth analysis of the monthly changes in stock prices, users can visit the monthly change chart page.
+
+6. The interactive chart provides a visual representation of how each stock's price has changed over the course of the month.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and test them thoroughly.
+4. Commit your changes and push them to your fork.
+5. Submit a pull request describing your changes.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Built with ❤️ by [Joz-Bruer Quince](https://github.com/jozzbruer) - Feel free to connect!
+
+Follow me on Twitter or X: [jozzbruer](https://twitter.com/jozzbruer)
